@@ -13,7 +13,20 @@ npm start
 
 ## Docker
 
+**Build**
+
 ```
-docker build -it huuduc_2107/docker-node .
-docker run -it -p 8000:8000 docker-node
+docker build -t huuduc2107/docker-node:lastest .
+```
+
+**Push**
+
+```
+docker push huuduc2107/docker-node:lastest
+```
+
+**Run**
+
+```
+docker run -it -p 8000:8000 huuduc2107/docker-node [/bin/bash]
 ```
