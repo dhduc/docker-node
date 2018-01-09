@@ -16,13 +16,13 @@ npm start
 **Build**
 
 ```
-docker build -t huuduc2107/docker-node:lastest .
+docker build -t huuduc2107/docker-node:latest .
 ```
 
 **Push**
 
 ```
-docker push huuduc2107/docker-node:lastest
+docker push huuduc2107/docker-node:latest
 ```
 
 **Run**
