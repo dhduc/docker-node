@@ -19,7 +19,7 @@ node {
          * This runs only a single dummy test inside the image. */
 
         app.inside {
-            sh 'npm test'
+            sh 'echo shell script'
         }
     }
 
