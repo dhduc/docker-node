@@ -30,3 +30,9 @@ docker push huuduc2107/docker-node:latest
 ```
 docker run -it -p 8000:8000 huuduc2107/docker-node [/bin/bash]
 ```
+
+**Jenkins Docker**
+
+```
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock -p8080:8080 getintodevops/jenkins-withdocker:lts
+```
